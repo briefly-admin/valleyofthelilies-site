@@ -377,6 +377,33 @@ a {
   background: var(--pared-cream);
 }
 
+.filter-bar-tags {
+  padding-top: 0;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid rgba(44,36,32,0.06);
+}
+
+.filter-btn-tag.active {
+  background: var(--pared-accent);
+  color: white;
+  border-color: var(--pared-accent);
+}
+
+.filter-btn-tag.active:hover {
+  color: white;
+  border-color: var(--pared-accent);
+}
+
+.filter-empty {
+  grid-column: 1 / -1;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--pared-muted);
+  font-weight: 300;
+  background: var(--pared-bg);
+}
+
 /* ===== PRODUCT GRID ===== */
 
 .product-grid {
