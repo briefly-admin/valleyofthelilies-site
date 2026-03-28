@@ -401,13 +401,14 @@ a {
 
 .filter-btn:hover {
   color: var(--votl-text);
-  border-color: var(--votl-subtle);
+  border-color: var(--votl-muted);
 }
 
 .filter-btn.active {
-  color: var(--votl-text);
-  border-color: var(--votl-subtle);
-  background: var(--votl-bg);
+  color: #fff;
+  border-color: var(--votl-forest);
+  background: var(--votl-forest);
+  font-weight: 500;
 }
 
 .filter-bar-tags {
@@ -417,13 +418,14 @@ a {
 }
 
 .filter-btn-tag.active {
-  
   color: white;
+  background: var(--votl-forest);
   border-color: var(--votl-forest);
 }
 
 .filter-btn-tag.active:hover {
   color: white;
+  background: var(--votl-forest);
   border-color: var(--votl-forest);
 }
 
